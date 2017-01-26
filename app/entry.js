@@ -3,7 +3,7 @@
 require('./scss/main.scss');
 
 const path = require('path');
-const camelcase = require('camelcase');
+// const camelcase = require('camelcase'); // unused - comment out to make eslint happy
 const pascalcase = require('pascalcase');
 const angular = require('angular');
 const uiRouter = require('angular-ui-router');
