@@ -20,6 +20,13 @@ function routerConfig($stateProvider, $urlRouterProvider) {
       controller: 'RegisterController',
       controllerAs: 'registerControl',
     },
+    {
+      name: 'gallery',
+      url: '/gallery',
+      template: require('../view/gallery/gallery.html'),
+      controller: 'GalleryController',
+      controllerAs: 'galleryControl',
+    },
   ];
 
   routes.forEach( route => {
