@@ -1,1 +1,14 @@
-// TODO: SET UP REGISTER CONTENT CSS STYLES
+$dark-grey: #444;
+
+ul {
+  list-style: disc;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+li {
+  font-size: 1.3vw;
+  color: $dark-grey;
+  line-height: 2vw;
+  margin-left: 2%;
+}
