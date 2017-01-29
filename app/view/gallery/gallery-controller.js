@@ -6,4 +6,5 @@ require('./gallery.scss');
 
  function GalleryController($log) {
    $log.debug('GalleryController');
+   this.title = 'Gallery';
  };

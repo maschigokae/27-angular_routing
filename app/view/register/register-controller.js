@@ -6,4 +6,5 @@ require('./register.scss');
 
  function RegisterController($log) {
    $log.debug('RegisterController');
+   this.title = 'Register';
  };
