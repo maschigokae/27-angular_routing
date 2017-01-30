@@ -1,9 +1,5 @@
 'use strict';
 
-require('./lib/test-setup.js');
-
-const angular = require('angular');
-
 describe('home controller', function() {
   beforeEach( () => {
     angular.mock.module('routesApp');
