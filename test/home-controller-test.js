@@ -12,7 +12,7 @@ describe('home controller', function() {
     });
   });
 
-  describe('home controller title property', function() {
+  describe('home controller title property', () => {
     it('should populate h1 element with home title text', () => {
       expect(this.homeControl.title).toEqual('Home');
     });
